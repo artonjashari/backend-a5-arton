@@ -1,7 +1,7 @@
 app:
   ecr_uri: 313422618945.dkr.ecr.eu-central-1.amazonaws.com/devops-training-arton/web-app
   image_tag: latest
-  certificate_arn: arn:aws:acm:us-east-1:313422618945:certificate/d9dd0187-112d-4f0e-905c-97716cf2c831
+  certificate_arn: arn:aws:acm:eu-central-1:313422618945:certificate/e2aff93b-6c9c-4e69-81e0-51026cf5e0bd
 
   name: devops-training-arton-a5
   hostname: api.arton-assignment-5.appstellar.training
