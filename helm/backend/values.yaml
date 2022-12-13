@@ -1,0 +1,11 @@
+app:
+  ecr_uri: 313422618945.dkr.ecr.eu-central-1.amazonaws.com/devops-training-arton/web-app
+  image_tag: latest
+  certificate_arn: 
+
+  name: devops-training-arton-a5
+  hostname: api.arton-assignment-5.appstellar.training
+  ingressClassName: alb
+  port:
+    servicePort: 3000
+    containerPort: 3000
